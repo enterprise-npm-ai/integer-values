@@ -1,4 +1,3 @@
-const five = require("five")
+const dependency = require("libeightyseven")
 
-const number = ((((five() - (five() / five())) + five()) * (five() + five())) - (five() - (five() / five() + five() / five())))
-module.exports = number // Export the number 87
+module.exports = dependency() // Export the number 87
