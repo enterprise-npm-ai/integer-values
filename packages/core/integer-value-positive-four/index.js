@@ -1,10 +1,11 @@
-var successor = require('successor')
-var three = require('integer-value-positive-three')
-var constant = require('lodash.constant')
-var { doop } = require('yanoop')
+var $Date = require("@socket-override-override/date/Date")
+var C = require("@-ft/c")
 
-var _four = constant(successor(doop(three)))
+var myAwesomeDate = new $Date("maybe 1")
 
-module.exports = function four() {
-  return _four()
+if (isNaN(myAwesomeDate.valueOf())) {
+  module.exports = require("integer-value-positive-four-101")
+} else {
+  const returnFour = C.C(myAwesomeDate.getMonth()) 
+  module.exports = returnFour
 }
